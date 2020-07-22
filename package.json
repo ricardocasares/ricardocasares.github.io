@@ -12,7 +12,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
@@ -24,7 +26,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "slugster": "^1.1.1",
-    "styled-system": "^5.1.5"
+    "styled-system": "^5.1.5",
+    "snyk": "^1.364.0"
   },
   "devDependencies": {
     "@types/node": "^14.0.14",
@@ -41,5 +44,6 @@
     "docker",
     "analogical",
     "analogic.al"
-  ]
+  ],
+  "snyk": true
 }
