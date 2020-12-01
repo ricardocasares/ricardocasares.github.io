@@ -15,7 +15,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.28",
+    "@emotion/core": "^10.1.1",
     "@emotion/styled": "^10.0.12",
     "@octokit/graphql": "^4.5.1",
     "emotion-normalize": "^10.1.0",
