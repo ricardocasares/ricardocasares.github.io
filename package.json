@@ -19,7 +19,7 @@
     "@emotion/styled": "^10.0.12",
     "@octokit/graphql": "^4.5.1",
     "emotion-normalize": "^10.1.0",
-    "emotion-theming": "^10.0.10",
+    "emotion-theming": "^11.0.0",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
